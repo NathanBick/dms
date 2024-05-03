@@ -1,4 +1,4 @@
-![Macintosh
+­![Macintosh
 HD:Users:ers:Dropbox:ACTIVE:JHU-logos:WSE:small:PDF:whiting.small.horizontal.black.pdf](media/image1.wmf){width="2.68125in"
 height="1.2152777777777777in"}
 
@@ -15,9 +15,15 @@ Brains**
 
 **(1 credit)**
 
+Here we are making a bunch of Q2 edits. Yadda yadda. Legal.
+
+Official Copy Final V2
+
+[]{.underline}
+
 ***[HERE I AM ADDING ANOTHER LINE WITH SOME FORMATTING.]{.underline}***
 
-**Adding another few items**
+**Adding another few items:**
 
 1.  here
 
@@ -26,6 +32,10 @@ Brains**
 3.  a list
 
 4.  of items that is numbered...
+
+5.  And one more item.
+
+6.  Adding anther item here.
 
 **Description**
 
