@@ -1,0 +1,25 @@
+name: Convert docx to markdown
+
+on:
+  push:
+    paths:
+      - '**/*.docx'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Pandoc
+        run: |
+          sudo apt update
+          sudo apt install pandoc
+
+      - name: Convert docx to markdown
+        run: |
+          for file in $(find . -name "*.docx"); do
+            pandoc -f docx -t markdown "$file" -o "${file%.docx}.md"
+          done
+    
