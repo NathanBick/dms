@@ -17,6 +17,16 @@ Brains**
 
 ***[HERE I AM ADDING ANOTHER LINE WITH SOME FORMATTING.]{.underline}***
 
+**Adding another few items**
+
+1.  here
+
+2.  is
+
+3.  a list
+
+4.  of items that is numbered...
+
 **Description**
 
 In this course, we will explore technological developments which have
