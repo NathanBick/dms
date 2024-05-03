@@ -23,4 +23,12 @@ jobs:
           for file in $(find . -name "*.docx"); do
             pandoc -f docx -t markdown "$file" -o "${file%.docx}.md"
           done
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Convert DOCX to Markdown" || echo "No changes to commit"
+          git push
     
