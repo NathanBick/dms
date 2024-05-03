@@ -17,7 +17,7 @@ Brains**
 
 ***[HERE I AM ADDING ANOTHER LINE WITH SOME FORMATTING.]{.underline}***
 
-**Adding another few items**
+**Adding another few items:**
 
 1.  here
 
@@ -26,6 +26,10 @@ Brains**
 3.  a list
 
 4.  of items that is numbered...
+
+5.  And one more item.
+
+6.  Adding anther item here.
 
 **Description**
 
