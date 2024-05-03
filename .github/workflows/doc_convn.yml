@@ -32,4 +32,13 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
+        with:
+          title: '[Example] Update report'
+          body: |
+            Automated Comment
+
+            [1]: https://github.com/peter-evans/create-pull-request
+          labels: |
+            report
+            automated pr
     
